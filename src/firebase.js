@@ -1,16 +1,15 @@
-// src/firebase.js
+// Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getFirestore } from "firebase/firestore";
 
-// Reemplaza esto con tus credenciales reales de la consola de Firebase
+// Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "TU_API_KEY_AQUI",
+  apiKey: "AIzaSyDq0WffTjW5ndFls3BsY0fpcZIdow4wPJ0",
   authDomain: "menudigitalapp-19772.firebaseapp.com",
   projectId: "menudigitalapp-19772",
-  storageBucket: "menudigitalapp-19772.appspot.com",
-  messagingSenderId: "TU_MESSAGING_SENDER_ID",
-  appId: "TU_APP_ID"
+  storageBucket: "menudigitalapp-19772.firebasestorage.app",
+  messagingSenderId: "695735779716",
+  appId: "1:695735779716:web:e5e5907781656990d51dd1"
 };
 
-const app = initializeApp(firebaseConfig);
-export const db = getFirestore(app);
+// Initialize Firebase
+export const db = initializeApp(firebaseConfig);
